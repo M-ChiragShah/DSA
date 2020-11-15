@@ -10,7 +10,6 @@ typedef struct node{
 /* Declaring global pointer so that it can be accessed by all functions */
 NODE* first;
 
-
 /* 
 - This funciton creates a node
 - It checks if list is empty if it is then it links first to new node
