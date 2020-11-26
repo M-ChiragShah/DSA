@@ -103,7 +103,8 @@ int main(){
     l :  
     printf("Choose an opition : \n1. Create a linked list\n2. Add a number to linked list\n3. Insert at position\n4. -1 to quit\n");
     scanf("%d",&choice);
-        switch(choice){
+        switch(choice)
+        {
             case 1 :
                     printf("\nHow many nodes does your list have ?\n");
                     scanf("%d",&size_node);  
@@ -131,7 +132,7 @@ int main(){
                     display();
                     break;
             default:
-            break;
+                    break;
 
         }
     }
